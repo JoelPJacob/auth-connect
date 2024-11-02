@@ -40,13 +40,16 @@ To run the application locally, follow these steps:
     REACT_APP_GOOGLE_CLIENT_ID=your_client_id_here
 
 4. Start the application:
-  ```bash
+    ```bash
     npm start
 
-5. Open your browser and navigate to http://localhost:3000.
+5. Open your browser and navigate to 
 
+    ```bash
+    http://localhost:3000.
+    
 ### Usage
 
 1. Click the "Login with Google" button to initiate authentication.
 2. Upon successful login, your profile information will be displayed.
-3. Use the "Logout" button to exit the session.
+3. Use the "Logout" button to exit the session. 
