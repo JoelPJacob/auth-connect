@@ -41,7 +41,7 @@ To run the application locally, follow these steps:
 3. Create a .env file in the root directory and add your Google Client ID:
 
     ```bash
-    REACT_APP_GOOGLE_CLIENT_ID=your_client_id_here
+    REACT_APP_REACT_APP__GOOGLE_CLIENT_ID=your_client_id_here
 
 4. Start the application:
 

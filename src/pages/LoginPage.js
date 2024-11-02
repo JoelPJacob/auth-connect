@@ -4,8 +4,11 @@ import { useNavigate } from 'react-router-dom';
 import { jwtDecode } from "jwt-decode";
 import "./LoginPage.css"
 
+const REACT_APP__GOOGLE_CLIENT_ID = "726382112345-sbcja2afjvuirdd6sqkjsmlruf5ri583.apps.googleusercontent.com"
+
 const LoginPage = ({ onLoginSuccess }) => {
-  const clientId = "726382112345-sbcja2afjvuirdd6sqkjsmlruf5ri583.apps.googleusercontent.com";
+  const clientId = { REACT_APP__GOOGLE_CLIENT_ID }
+  // const clientId = {process.env.REACT_APP__GOOGLE_CLIENT_ID}
   const navigate = useNavigate();
   const [loading, setLoading] = useState(false);
 

@@ -1,3 +1,3 @@
 // src/constants.js
-export const GOOGLE_CLIENT_ID = "726382112345-sbcja2afjvuirdd6sqkjsmlruf5ri583.apps.googleusercontent.com";
+// export const REACT_APP__GOOGLE_CLIENT_ID = process.env.REACT_APP__GOOGLE_CLIENT_ID;
 export const STORAGE_KEY = 'userSession';

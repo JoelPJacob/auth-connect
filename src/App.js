@@ -8,19 +8,21 @@ import { GoogleOAuthProvider } from '@react-oauth/google';
 function App() {
   const [user, setUser] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
+  const REACT_APP__GOOGLE_CLIENT_ID = "726382112345-sbcja2afjvuirdd6sqkjsmlruf5ri583.apps.googleusercontent.com";
 
   const handleLoginSuccess = (profile) => {
     setUser(profile);
-    setIsLoading(false); 
+    setIsLoading(false);
   };
 
   const handleLogout = () => {
     setUser(null);
-    setIsLoading(true); 
+    setIsLoading(true);
   };
 
   return (
-    <GoogleOAuthProvider clientId="726382112345-sbcja2afjvuirdd6sqkjsmlruf5ri583.apps.googleusercontent.com">
+    // <GoogleOAuthProvider clientId={process.env.REACT_APP__GOOGLE_CLIENT_ID}>
+    <GoogleOAuthProvider clientId={REACT_APP__GOOGLE_CLIENT_ID}>
       <Router>
         {isLoading ? (
           <SplashScreen onTimeout={() => setIsLoading(false)} />
