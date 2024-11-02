@@ -1,0 +1,21 @@
+.splash-screen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url('../assets/images/splash.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  color: #ffffff;
+}
+
+.splash-text {
+  font-size: 50px;
+  font-weight: 600;
+  color: black;
+  position: absolute;
+  text-align: center;
+  top: 120px;
+}

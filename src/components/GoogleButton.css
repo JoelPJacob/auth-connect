@@ -1,0 +1,22 @@
+/* src/components/GoogleButton.css */
+
+.google-button {
+    margin-top: 20px;
+  }
+  
+  .google-button button {
+    background-color: #4285f4;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  
+  .google-button img {
+    margin-right: 8px;
+  }
+  
