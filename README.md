@@ -28,18 +28,23 @@ To run the application locally, follow these steps:
 ### Installation
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/yourusername/auth-connect.git
    cd auth-connect
 
 2. Install dependencies:
+
     ```bash
     npm install
 
 3. Create a .env file in the root directory and add your Google Client ID:
+
+    ```bash
     REACT_APP_GOOGLE_CLIENT_ID=your_client_id_here
 
 4. Start the application:
+
     ```bash
     npm start
 
