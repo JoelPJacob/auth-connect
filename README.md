@@ -1,7 +1,9 @@
 # AUTH-CONNECT
 
 **Developer:** Joel P Jacob 
+
 **Role:** Front End Developer  
+
 **Project:** Technical Evaluation for Sienti Solutions Pvt. Ltd.
 
 **Project Overview:** This project was developed as part of the technical evaluation for the Front End Developer role at Sienti Solutions Pvt. Ltd. The goal is to create an interactive web application that enables users to authenticate using Google Single Sign-On (SSO) and view their profile information.
